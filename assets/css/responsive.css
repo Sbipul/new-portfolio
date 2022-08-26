@@ -1,0 +1,31 @@
+@media (max-width: 575.98px) {
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 1199.98px) {
+}
+@media (max-width: 1399.98px) {
+  .details-container {
+    padding: 2rem;
+  }
+  .details-image {
+    width: 300px;
+    height: 400px;
+  }
+  .project-image {
+    height: 200px;
+    width: 260px;
+    margin-bottom: 3rem;
+  }
+  .project-image h3 {
+    font-size: 24px;
+  }
+  .projects h2 {
+    font-size: 60px;
+  }
+  section {
+    padding: 2rem 0;
+  }
+}
