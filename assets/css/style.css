@@ -27,6 +27,9 @@ a {
   text-decoration: none;
   color: initial;
 }
+.grayscale{
+    filter: grayscale(1);
+}
 section {
   padding: 4rem 0;
 }
@@ -68,6 +71,9 @@ header {
   color: #f7f8f2;
   background: #0b1e5b;
 }
+.banner-buttons button:hover a {
+  color: #f7f8f2 !important;
+}
 
 /* scrolling css */
 .scrolling-container {
@@ -101,9 +107,9 @@ header {
 
 /* details css  */
 .details-container {
-  background: #cecece;
   padding: 5rem;
   border-radius: 100px;
+  border: 1px solid #dfdfdf;
 }
 .details-image {
   width: 348px;
@@ -172,7 +178,7 @@ header {
   height: 100%;
   width: 100%;
 }
-.idea-container p{
+.idea-container p {
   display: inline-block;
 }
 .idea {
@@ -186,7 +192,7 @@ header {
 
 /* faq css  */
 .faq-container {
-  background: #cecece;
+  border: 1px solid #dfdfdf;
   padding: 1rem 9rem;
   border-radius: 377px;
   overflow: hidden;

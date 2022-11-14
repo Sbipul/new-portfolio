@@ -1,0 +1,7 @@
+.project-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 97% 0, 100% 96%, 0% 100%);
+    width: 35%;
+}
