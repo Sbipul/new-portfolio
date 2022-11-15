@@ -1,4 +1,7 @@
 @media (max-width: 575.98px) {
+  .banner-image-container {
+    width: 100%;
+}
   .idea {
     text-align: end;
     border-radius: 28px;
