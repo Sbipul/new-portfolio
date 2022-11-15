@@ -8,7 +8,7 @@ projects.innerHTML = `<div class="container">
   </div>
   <div class="col-12 col-lg-7">
     <div class="w-sm-100 w-lg-75">
-    <h2>all my projects</h2>
+    <h2>my projects</h2>
       <p>
         i always accept new challange in my work and as i like to
         learn new technologies, this are the result of my little
