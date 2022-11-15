@@ -1,4 +1,28 @@
 @media (max-width: 575.98px) {
+  .idea {
+    text-align: end;
+    border-radius: 28px;
+    border: 1px solid #d8d8d8;
+    margin-right: 5px;
+    padding: 3px;
+    margin-bottom: 6px;
+    font-size: 13px !important;
+}
+  .hide-large{
+    display: block;
+  }
+  .work-rocket {
+    height: 150px;
+    width: 60px;
+    margin: 0 auto;
+}
+  .work-rocket-container {
+    position: relative;
+    top: 0;
+}
+  .socials a {
+    height: 41px;
+}
   .hide-small{
     display: none !important;
   }

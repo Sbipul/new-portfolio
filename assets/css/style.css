@@ -77,7 +77,9 @@ header {
 .banner-buttons button:hover a {
   color: #f7f8f2 !important;
 }
-
+.hide-large{
+  display: none;
+}
 /* scrolling css */
 .scrolling-container {
   padding: 5rem 0;
@@ -156,15 +158,34 @@ header {
   left: 0;
   animation: fly 2s linear infinite;
 }
+.work-rocket-container2 {
+  position: relative;
+  padding-top: 3rem;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  animation: fly2 2s linear infinite;
+}
+@keyframes fly2 {
+  0% {
+    top: -0px;
+  }
+  50% {
+    top: -30px;
+  }
+  100% {
+    top: -0px;
+  }
+}
 @keyframes fly {
   0% {
-    top: -30px;
+    top: -0px;
   }
   50% {
     top: -100px;
   }
   100% {
-    top: -30px;
+    top: -0px;
   }
 }
 .work-rocket {
@@ -216,7 +237,6 @@ header {
   font-size: 24px;
 }
 .single-projects {
-  border: 1px solid #d9cece;
   padding: 1rem;
   rotate: -1deg;
 }
