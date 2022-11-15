@@ -36,6 +36,9 @@ section {
 header {
   font-family: "Karla", sans-serif;
 }
+.header{
+  padding: 1rem 0;
+}
 .banner {
   padding: 7rem 0;
 }
@@ -107,7 +110,6 @@ header {
 
 /* details css  */
 .details-container {
-  padding: 5rem;
   border-radius: 100px;
   border: 1px solid #dfdfdf;
 }
@@ -117,11 +119,11 @@ header {
   border-radius: 288px;
   overflow: hidden;
 }
+.details-section {
+  padding: 3rem;
+}
 
 /* projects  */
-.projects h2 {
-  font-size: 100px;
-}
 .project-icon {
   height: 100px;
   width: 70px;
@@ -136,11 +138,8 @@ header {
   font-size: 20px;
 }
 .project-image {
-  height: 300px;
-  width: 300px;
   border-radius: 20px;
   overflow: hidden;
-  margin-bottom: 5rem;
 }
 .project-odd {
   margin-top: -7rem;
@@ -215,4 +214,9 @@ header {
   border: 2px solid #d8d8d8;
   margin-right: 5px;
   font-size: 24px;
+}
+.single-projects {
+  border: 1px solid #d9cece;
+  padding: 1rem;
+  rotate: -1deg;
 }
