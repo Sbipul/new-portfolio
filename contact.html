@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
-    <link rel="stylesheet" href="./assets/css/line-awesome.min.css"/>
+    <link rel="stylesheet" href="./assets/css/select2.min.css" />
     <link rel="stylesheet" href="./assets/css/projects.css" />
     <link rel="stylesheet" href="./assets/css/about.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -20,13 +20,13 @@
           <div class="col-8">
             <div class="row">
               <div class="col-4 col-lg-2">
-                <a href="#">portfolio</a>
+                <a href="./index.html">portfolio</a>
               </div>
               <div class="col-4 col-lg-2">
                 <a href="./about.html">about</a>
               </div>
               <div class="col-4 col-lg-2">
-                <a href="#">contact</a>
+                <a href="./contact.html">contact</a>
               </div>
             </div>
           </div>
@@ -34,44 +34,71 @@
             <button class="border-0 bg-transparent">download</button>
           </div>
         </div>
-        </div>
+      </div>
     </header>
 
     <main>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <img class="w-100" src="./assets/images/contact.jpg" alt="">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <h3 class="introduction-title mb-2 text-secondary">#contact me</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi voluptatem facere error nisi doloremque nam.</p>
-                        <div class="contact-form mt-5">
-                            <form>
-                                <div class="row">
-                                    <div class="mb-3 col-12 col-lg-6">
-                                        <label for="exampleInputEmail1" class="form-label">Your name</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Bipul chandro roy" aria-describedby="emailHelp">
-                                      </div>
-                                      <div class="mb-3 col-12 col-lg-6">
-                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="bipulcroy121@gmail.com" aria-describedby="emailHelp">
-                                      </div>
-                                      <div class="mb-3 col-12 col-lg-12">
-                                        <label for="exampleInputPassword1" class="form-label">Your text</label>
-                                        <textarea name="" id="" placeholder="Your text" class="w-100 rounded form-control" rows="5"></textarea>
-                                      </div>
-                                      <div class="col-12">
-                                          <button type="submit" class="btn border">Submit</button>
-                                      </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+              <img class="w-100" src="./assets/images/contact.jpg" alt="" />
             </div>
-        </section>
+            <div class="col-12 col-md-6 col-lg-6">
+              <h3 class="introduction-title mb-2 text-secondary">
+                #contact me
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
+                voluptatem facere error nisi doloremque nam.
+              </p>
+              <div class="contact-form mt-5">
+                <form id="form" class="row">
+                  <div class="field mb-3 col-12 col-lg-6">
+                    <label for="user_name">your name</label>
+                    <input
+                      placeholder="your name"
+                      type="text"
+                      class="form-control"
+                      name="user_name"
+                      id="user_name"
+                    />
+                  </div>
+                  <div class="field mb-3 col-12 col-lg-6">
+                    <label for="user_email">your email</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="your email"
+                      name="user_email"
+                      id="user_email"
+                    />
+                  </div>
+                  <div class="field mb-3 col-12 col-lg-12">
+                    <label for="message">message</label>
+                    <textarea
+                      placeholder="your message"
+                      name="message"
+                      id="message"
+                      class="form-control"
+                      cols="30"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                  <div>
+                    <input
+                      class="p-2"
+                      type="submit"
+                      id="button"
+                      value="Send Email"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -82,10 +109,22 @@
               <div>
                 <h1 class="fw-bold">socials</h1>
                 <div class="socials">
-                    <a target="_blank" href="https://www.facebook.com/bipul.chandro.roy.121/"><i class="lab la-facebook-f"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/bipul-chandro-roy/"><i class="lab la-linkedin-in"></i></a>
-                    <a target="_blank" href="https://github.com/Sbipul"><i class="lab la-github"></i></a>
-                    <a target="_blank" href="tel:+8801954443121"><i class="las la-phone-volume"></i></a>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/bipul.chandro.roy.121/"
+                    ><i class="lab la-facebook-f"></i
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/bipul-chandro-roy/"
+                    ><i class="lab la-linkedin-in"></i
+                  ></a>
+                  <a target="_blank" href="https://github.com/Sbipul"
+                    ><i class="lab la-github"></i
+                  ></a>
+                  <a target="_blank" href="tel:+8801954443121"
+                    ><i class="las la-phone-volume"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -114,5 +153,56 @@
     </footer>
 
     <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/sweetalert2.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("I8Y_FMiEJnxpxfOCW");
+      })();
+    </script>
+    <script>
+      const btn = document.getElementById("button");
+      document
+        .getElementById("form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          btn.value = "Sending...";
+          const serviceID = "service_9f8d267";
+          const templateID = "template_2j0y6u8";
+          emailjs.sendForm(serviceID, templateID, this).then(
+            () => {
+              btn.value = "Send Email";
+              toastSuccess('success','Successfull email sent','top-end')
+            },
+            (err) => {
+              btn.value = "Send Email";
+              alert(JSON.stringify(err));
+            }
+          );
+        });
+      
+
+      const toastSuccess = (icon, message, position) => {
+        const Toast = Swal.mixin({
+          toast: true,
+          position: position,
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+          didOpen: (toast) => {
+            toast.addEventListener("mouseenter", Swal.stopTimer);
+            toast.addEventListener("mouseleave", Swal.resumeTimer);
+          },
+        });
+
+        Toast.fire({
+          icon: icon,
+          title: message,
+        });
+      };
+    </script>
   </body>
 </html>
