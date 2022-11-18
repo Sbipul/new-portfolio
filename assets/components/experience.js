@@ -1,5 +1,6 @@
 const experience = document.querySelector(".experience")
-experience.innerHTML = `<div class="container">
+if (experience) {
+  experience.innerHTML = `<div class="container">
 <div class="row align-items-center">
   <div class="col-12 col-lg-7">
     <div class="w-sm-100 w-lg-75">
@@ -109,3 +110,4 @@ experience.innerHTML = `<div class="container">
       </div>
     </div>
 </div>`
+}

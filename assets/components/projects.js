@@ -1,5 +1,6 @@
 const projects = document.querySelector(".projects")
-projects.innerHTML = `<div class="container">
+if (projects) {
+  projects.innerHTML = `<div class="container">
 <div class="row align-items-center">
   <div class="col-12 col-lg-5 hide-small">
     <div class="details-image">
@@ -156,3 +157,4 @@ projects.innerHTML = `<div class="container">
       </div>
     </div>
 </div>`
+}

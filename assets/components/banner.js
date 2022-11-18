@@ -1,5 +1,6 @@
 const banner = document.querySelector(".banner")
-banner.innerHTML = `<div class="container">
+if (banner) {
+  banner.innerHTML = `<div class="container">
 <div class="row">
   <div class="col-12 col-lg-6">
     <div class="banner-text">
@@ -45,3 +46,4 @@ banner.innerHTML = `<div class="container">
   </div>
 </div>
 </div>`
+}

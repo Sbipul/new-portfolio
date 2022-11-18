@@ -1,5 +1,6 @@
 const footer = document.querySelector("footer")
-footer.innerHTML = `<div class="container">
+if (footer) {
+  footer.innerHTML = `<div class="container">
 <div class="primary-footer pb-5">
   <div class="row">
     <div class="col-8">
@@ -47,3 +48,4 @@ footer.innerHTML = `<div class="container">
   </p>
 </div>
 </div>`
+}

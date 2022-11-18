@@ -1,5 +1,6 @@
 const faq = document.querySelector(".faq")
-faq.innerHTML = `<div class="container">
+if (faq) {
+  faq.innerHTML = `<div class="container">
 <div class="faq-container">
   <div class="row align-items-center">
     <div class="col-7">
@@ -24,3 +25,4 @@ faq.innerHTML = `<div class="container">
   </div>
 </div>
 </div>`
+}

@@ -1,5 +1,6 @@
 const idea = document.querySelector(".idea-implement");
-idea.innerHTML = `<div class="container">
+if (idea) {
+  idea.innerHTML = `<div class="container">
 <div class="row pb-5">
   <div class="col-12 col-md-12 col-lg-6"></div>
   <div class="col-12 col-md-12 col-lg-6">
@@ -61,3 +62,4 @@ idea.innerHTML = `<div class="container">
   <img src="./assets/images/smoke.png" alt="" />
 </div>
 </div>`
+}

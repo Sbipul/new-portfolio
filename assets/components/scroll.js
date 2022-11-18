@@ -1,5 +1,6 @@
 const scrollContainer = document.querySelector(".scrolling-container")
-scrollContainer.innerHTML = `<div class="scrolling">
+if (scrollContainer) {
+  scrollContainer.innerHTML = `<div class="scrolling">
 <h3>Skills</h3>
 <ul>
   <li><a href="#">html</a></li>
@@ -23,3 +24,4 @@ scrollContainer.innerHTML = `<div class="scrolling">
   <li><a href="#">pwa</a></li>
 </ul>
 </div>`
+}
