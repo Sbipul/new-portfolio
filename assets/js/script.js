@@ -39,7 +39,7 @@ if (moreButton) {
 
 
 let themeButton = document.querySelector(".theme")
-let active = false;
+let active = true;
 const themeChange =()=>{
   active = !active
   if (active) {

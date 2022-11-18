@@ -111,6 +111,7 @@ section {
   overflow: hidden;
   border: none;
   transition: 0.4s;
+  color: var(--color-black);
   background: var(--color-secondary);
 }
 .banner-buttons input {
