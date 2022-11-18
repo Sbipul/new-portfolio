@@ -1,4 +1,4 @@
-const faq = document.querySelector("faq")
+const faq = document.querySelector(".faq")
 faq.innerHTML = `<div class="container">
 <div class="faq-container">
   <div class="row align-items-center">

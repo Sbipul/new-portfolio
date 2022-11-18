@@ -6,6 +6,40 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+.preloader {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+.hide{
+  animation: hidepreloader 2s linear forwards;
+  -webkit-animation: hidepreloader 2s linear forwards;
+}
+@keyframes hidepreloader {
+  0%{
+    opacity: 1;
+    visibity:visible;
+    z-index: 10;
+  }
+  100%{
+    opacity: 0;
+    visibity:hidden;
+    z-index: -1;
+  }
+}
 img {
   height: 100%;
   width: 100%;
