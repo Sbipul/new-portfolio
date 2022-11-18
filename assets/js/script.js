@@ -43,12 +43,12 @@ let active = false;
 const themeChange =()=>{
   active = !active
   if (active) {
-    themeButton.innerHTML = `<i class="lar la-sun"></i>`
+    themeButton.innerHTML = `<i class="lar la-sun fs-4"></i>`
     document.documentElement.style.setProperty('--color-primary', 'white');
     document.documentElement.style.setProperty('--color-black', 'black');
     document.documentElement.style.setProperty('--color-secondary', 'rgb(248 248 248)');
   } else {
-    themeButton.innerHTML = `<i class="lar la-moon"></i>`
+    themeButton.innerHTML = `<i class="lar la-moon fs-4"></i>`
     document.documentElement.style.setProperty('--color-primary', 'black');
     document.documentElement.style.setProperty('--color-black', 'white');
     document.documentElement.style.setProperty('--color-secondary', 'rgb(45 45 45)');

@@ -16,7 +16,7 @@ if(header){
       </div>
     </div>
     <div class="col-4 text-end">
-      <button class="border-0 bg-transparent theme" onclick="themeChange()"><i class="lar la-sun"></i></button>
+      <button class="border-0 bg-transparent theme" onclick="themeChange()"><i class="lar la-sun fs-4"></i></button>
     </div>
   </div>
   </div>`
