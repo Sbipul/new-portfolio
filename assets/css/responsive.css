@@ -1,4 +1,12 @@
 @media (max-width: 575.98px) {
+  .scrolling h3 {
+    position: absolute;
+    top: -3rem;
+    left: 27%;
+    font-size: 2rem;
+    color: #80808017;
+    z-index: -1;
+  }
   .banner-image-container {
     border-radius: 30px;
     width: 100%;

@@ -152,57 +152,10 @@
       </div>
     </footer>
 
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/sweetalert2.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("I8Y_FMiEJnxpxfOCW");
-      })();
-    </script>
-    <script>
-      const btn = document.getElementById("button");
-      document
-        .getElementById("form")
-        .addEventListener("submit", function (event) {
-          event.preventDefault();
-          btn.value = "Sending...";
-          const serviceID = "service_9f8d267";
-          const templateID = "template_2j0y6u8";
-          emailjs.sendForm(serviceID, templateID, this).then(
-            () => {
-              btn.value = "Send Email";
-              toastSuccess('success','Successfull email sent','top-end')
-            },
-            (err) => {
-              btn.value = "Send Email";
-              alert(JSON.stringify(err));
-            }
-          );
-        });
-      
-
-      const toastSuccess = (icon, message, position) => {
-        const Toast = Swal.mixin({
-          toast: true,
-          position: position,
-          showConfirmButton: false,
-          timer: 3000,
-          timerProgressBar: true,
-          didOpen: (toast) => {
-            toast.addEventListener("mouseenter", Swal.stopTimer);
-            toast.addEventListener("mouseleave", Swal.resumeTimer);
-          },
-        });
-
-        Toast.fire({
-          icon: icon,
-          title: message,
-        });
-      };
-    </script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="./assets/js/email.min.js"></script>
+    <script type="text/javascript" src="./assets//js/initiate.js"></script>
+    <script type="text/javascript" src="./assets//js/email.js"></script>
   </body>
 </html>

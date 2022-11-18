@@ -55,6 +55,7 @@ header {
   height: 374px;
   overflow: hidden;
   border-radius: 296px;
+  border: 1px solid #efefef;
 }
 .first-banner-image-container {
   margin-top: -65px;
@@ -83,21 +84,31 @@ header {
 /* scrolling css */
 .scrolling-container {
   padding: 5rem 0;
+  position: relative;
+}
+.scrolling h3 {
+  position: absolute;
+  top: -15rem;
+  left: 27%;
+  font-size: 14rem;
+  color: #80808017;
+  z-index: -1;
 }
 .scrolling {
   transform: rotate(-5deg);
 }
 @keyframes slide {
   0% {
-    margin-left: 0%;
+    margin-left: 100%;
   }
   100% {
-    margin-left: -100%;
+    margin-left: -300%;
   }
 }
 .scrolling ul {
   display: flex;
-  animation: slide 20s linear infinite;
+  animation: slide 40s linear infinite;
+  -webkit-animation: slide 40s linear infinite;
 }
 .scrolling ul li a {
   padding: 21px 36px 24px 36px;

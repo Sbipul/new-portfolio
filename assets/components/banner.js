@@ -14,7 +14,7 @@ banner.innerHTML = `<div class="container">
         to upgrade my skils
       </p>
       <div class="banner-buttons">
-        <button>contact me</button>
+        <button><a href="./contact.html">contact me</a></button>
         <button>resume</button>
       </div>
     </div>
@@ -27,7 +27,7 @@ banner.innerHTML = `<div class="container">
         >
           <img
             class="grayscale"
-            src="./assets/images/img1.jpg"
+            src="./assets/images/20221118_110804.jpg"
             alt=""
           />
         </div>
@@ -36,7 +36,7 @@ banner.innerHTML = `<div class="container">
         <div class="banner-image-container">
           <img
             class="grayscale"
-            src="./assets/images//img2.jpg"
+            src="./assets/images//img1.jpg"
             alt=""
           />
         </div>
