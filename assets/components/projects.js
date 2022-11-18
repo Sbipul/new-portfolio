@@ -18,11 +18,10 @@ if (projects) {
       </p>
       <div class="banner-buttons">
         <button>
-          <a class="text-dark" href="./projects.html">view all</a>
+          <a href="./projects.html">view all</a>
         </button>
         <button>
           <a
-            class="text-dark"
             target="_blank"
             href="https://github.com/Sbipul"
             >github</a

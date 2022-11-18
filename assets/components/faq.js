@@ -10,8 +10,7 @@ if (faq) {
         person will get back to you as soon as possible
       </p>
       <div class="banner-buttons">
-        <button>ask question</button>
-        <button>send message</button>
+        <button><a href="./contact.html">ask question</a></button>
       </div>
     </div>
     <div class="col-5">

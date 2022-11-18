@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+:root{
+  --color-primary:white;
+  --color-black:black;
+  --color-secondary:rgb(248 248 248);
+}
 html,
 body {
   font-family: "Source Code Pro", monospace;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background: var(--color-primary);
+  color: var(--color-black);
 }
 .preloader {
   height: 100vh;
@@ -12,7 +18,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: white;
+  background: var(--color-primary);
+  color: var(--color-black);
   z-index: 10;
   display: flex;
   align-items: center;
@@ -55,20 +62,17 @@ ul {
 }
 ul li a {
   text-decoration: none;
-  color: initial;
+  color: var(--color-black);
 }
 a {
   text-decoration: none;
-  color: initial;
+  color: var(--color-black);
 }
 .grayscale{
     filter: grayscale(1);
 }
 section {
   padding: 4rem 0;
-}
-header {
-  font-family: "Karla", sans-serif;
 }
 .header{
   padding: 1rem 0;
@@ -89,7 +93,7 @@ header {
   height: 374px;
   overflow: hidden;
   border-radius: 296px;
-  border: 1px solid #efefef;
+  border: 1px solid rgb(236, 236, 236);
 }
 .first-banner-image-container {
   margin-top: -65px;
@@ -104,13 +108,29 @@ header {
   overflow: hidden;
   border: none;
   transition: 0.4s;
+  background: var(--color-secondary);
+}
+.banner-buttons input {
+  min-width: 162px;
+  height: 62.4px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  text-align: center;
+  overflow: hidden;
+  border: none;
+  transition: 0.4s;
+  background: var(--color-secondary);
+}
+.banner-buttons button a {
+  color: var(--color-black);
 }
 .banner-buttons button:hover {
-  color: #f7f8f2;
-  background: #0b1e5b;
+  color: var(--color-primary);
+  background: var(--color-black);
 }
 .banner-buttons button:hover a {
-  color: #f7f8f2 !important;
+  color: var(--color-primary) !important;
 }
 .hide-large{
   display: none;
@@ -125,7 +145,7 @@ header {
   top: -15rem;
   left: 27%;
   font-size: 14rem;
-  color: #80808017;
+  color: var(--color-secondary);
   z-index: -1;
 }
 .scrolling {
@@ -150,15 +170,9 @@ header {
   -webkit-border-radius: 66px;
   -moz-border-radius: 66px;
   border-radius: 66px;
-  background: #e7e7fd;
+  background: var(--color-secondary);
   text-align: center;
   white-space: nowrap;
-}
-
-/* details css  */
-.details-container {
-  border-radius: 100px;
-  border: 1px solid #dfdfdf;
 }
 .details-image {
   width: 348px;
@@ -170,30 +184,6 @@ header {
   padding: 3rem;
 }
 
-/* projects  */
-.project-icon {
-  height: 100px;
-  width: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 31px;
-  border: 1px solid grey;
-  border-radius: 40px;
-}
-.projects p {
-  font-size: 20px;
-}
-.project-image {
-  border-radius: 20px;
-  overflow: hidden;
-}
-.project-odd {
-  margin-top: -7rem;
-}
-.last-column {
-  margin-top: 7rem;
-}
 
 /* work css  */
 .work-rocket-container {
@@ -249,7 +239,7 @@ header {
 .idea {
   text-align: end;
   border-radius: 28px;
-  border: 2px solid #d8d8d8;
+  border: 2px solid var(--color-secondary);
   margin-right: 5px;
   padding: 5px;
   margin-bottom: 10px;
@@ -257,7 +247,7 @@ header {
 
 /* faq css  */
 .faq-container {
-  border: 1px solid #dfdfdf;
+  border: 1px solid var(--color-secondary);
   padding: 1rem 9rem;
   border-radius: 377px;
   overflow: hidden;
@@ -277,7 +267,7 @@ header {
   height: 46px;
   margin-right: 0;
   border-radius: 28px;
-  border: 2px solid #d8d8d8;
+  border: 2px solid var(--color-secondary);
   margin-right: 5px;
   font-size: 24px;
 }

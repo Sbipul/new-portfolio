@@ -14,35 +14,14 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="py-3">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-8">
-            <div class="row">
-              <div class="col-4 col-lg-2">
-                <a href="./index.html">portfolio</a>
-              </div>
-              <div class="col-4 col-lg-2">
-                <a href="./about.html">about</a>
-              </div>
-              <div class="col-4 col-lg-2">
-                <a href="./contact.html">contact</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 text-end">
-            <button class="border-0 bg-transparent">download</button>
-          </div>
-        </div>
-      </div>
-    </header>
+    <header class="header"></header>
 
     <main>
       <section>
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 col-lg-6">
-              <img class="w-100" src="./assets/images/contact.jpg" alt="" />
+              <img class="w-100" src="./assets/images/contact.png" alt="" />
             </div>
             <div class="col-12 col-md-6 col-lg-6">
               <h3 class="introduction-title mb-2 text-secondary">
@@ -58,7 +37,7 @@
                     <input
                       placeholder="your name"
                       type="text"
-                      class="form-control"
+                      class="form-control bg-transparent"
                       name="user_name"
                       id="user_name"
                     />
@@ -67,7 +46,7 @@
                     <label for="user_email">your email</label>
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control bg-transparent"
                       placeholder="your email"
                       name="user_email"
                       id="user_email"
@@ -79,14 +58,14 @@
                       placeholder="your message"
                       name="message"
                       id="message"
-                      class="form-control"
+                      class="form-control bg-transparent"
                       cols="30"
                       rows="5"
                     ></textarea>
                   </div>
-                  <div>
+                  <div class="banner-buttons">
                     <input
-                      class="p-2"
+                    class="rounded"
                       type="submit"
                       id="button"
                       value="Send Email"
@@ -151,10 +130,12 @@
       </div>
     </footer>
 
+    <script type="text/javascript" src="./assets/components/header.js"></script>
     <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./assets/js/sweetalert2.min.js"></script>
     <script type="text/javascript" src="./assets/js/email.min.js"></script>
     <script type="text/javascript" src="./assets//js/initiate.js"></script>
     <script type="text/javascript" src="./assets//js/email.js"></script>
+    <script type="text/javascript" src="./assets//js/script.js"></script>
   </body>
 </html>

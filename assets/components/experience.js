@@ -12,8 +12,8 @@ if (experience) {
         moment. --antonio brown
       </p>
       <div class="banner-buttons text-end">
-        <button>about me</button>
-        <button>contact</button>
+        <button><a href="./about.html">about me</a></button>
+        <button><a href="./contact.html">contact</a></button>
       </div>
     </div>
   </div>
