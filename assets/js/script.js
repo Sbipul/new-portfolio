@@ -38,9 +38,20 @@ if (moreButton) {
 // more section end
 
 
-// let themeButton = document.getElementById("theme-button")
+let themeButton = document.querySelector(".theme")
+let active = false;
 const themeChange =()=>{
-  document.documentElement.style.setProperty('--color-primary', 'black');
-  document.documentElement.style.setProperty('--color-black', 'white');
-  document.documentElement.style.setProperty('--color-secondary', 'rgb(45 45 45)');
+  active = !active
+  if (active) {
+    themeButton.innerHTML = `<i class="lar la-sun"></i>`
+    document.documentElement.style.setProperty('--color-primary', 'white');
+    document.documentElement.style.setProperty('--color-black', 'black');
+    document.documentElement.style.setProperty('--color-secondary', 'rgb(248 248 248)');
+  } else {
+    themeButton.innerHTML = `<i class="lar la-moon"></i>`
+    document.documentElement.style.setProperty('--color-primary', 'black');
+    document.documentElement.style.setProperty('--color-black', 'white');
+    document.documentElement.style.setProperty('--color-secondary', 'rgb(45 45 45)');
+  }
+  
 }
