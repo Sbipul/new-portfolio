@@ -1,4 +1,8 @@
 @media (max-width: 575.98px) {
+  .faq-container {
+    padding: 1rem 0rem;
+    border-radius: 0px;
+}
   .scrolling h3 {
     position: absolute;
     top: -3rem;
