@@ -279,3 +279,9 @@ section {
 .single-projects {
   padding: 1rem;
 }
+.contact-form input{
+  color: var(--color-black) !important;
+}
+.contact-form textarea{
+  color: var(--color-black) !important;
+}

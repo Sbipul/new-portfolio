@@ -38,37 +38,36 @@ if (moreButton) {
 // more section end
 
 
-let dark =  JSON.parse(window.localStorage.getItem("dark"));
+function getTheme () {
+ return JSON.parse(window.localStorage.getItem("dark"));
+}
 let themeButton = document.querySelector(".theme")
-const setTheme = (dark) =>{
-  if (!dark) {
-    themeButton.innerHTML = `<i class="lar la-sun fs-4"></i>`
-    document.documentElement.style.setProperty('--color-primary', 'white');
-    document.documentElement.style.setProperty('--color-black', 'black');
-    document.documentElement.style.setProperty('--color-secondary', 'rgb(248 248 248)');
-  
-} else {
-    themeButton.innerHTML = `<i class="lar la-moon fs-4"></i>`
-    document.documentElement.style.setProperty('--color-primary', 'black');
-    document.documentElement.style.setProperty('--color-black', 'white');
-    document.documentElement.style.setProperty('--color-secondary', 'rgb(45 45 45)');
-}
-}
-setTheme(dark)
+const themee = () => {
+  if (!getTheme()) {
+  themeButton.innerHTML = `<i class="lar la-sun fs-4"></i>`
+  document.documentElement.style.setProperty('--color-primary', 'white');
+  document.documentElement.style.setProperty('--color-black', 'black');
+  document.documentElement.style.setProperty('--color-secondary', 'rgb(248 248 248)');
 
-let active = true;
+} else {
+  themeButton.innerHTML = `<i class="lar la-moon fs-4"></i>`
+  document.documentElement.style.setProperty('--color-primary', 'black');
+  document.documentElement.style.setProperty('--color-black', 'white');
+  document.documentElement.style.setProperty('--color-secondary', 'rgb(45 45 45)');
+}
+}
+themee(getTheme())
+let active;
 const themeChange =()=>{
-  active = !active
-  if (active) {
+  active = getTheme();
+  if (!active) {
     window.localStorage.setItem("dark", JSON.stringify(true));
-    setTheme(true)
+    themee()
   } else {
     window.localStorage.setItem("dark", JSON.stringify(false));
-    setTheme(false)
+    themee()
   }
-
 }
-
 
 
 
