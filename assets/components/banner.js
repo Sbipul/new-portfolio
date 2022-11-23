@@ -16,7 +16,7 @@ if (banner) {
         </p>
         <div class="banner-buttons">
           <button><a href="./contact.html">contact me</a></button>
-          <button><a target="_blank" href="./assets/resume/resume of bipul.pdf">resume</a></button>
+          <button><a target="_blank" href="./assets/resume/resume-of-bipul.pdf">resume</a></button>
         </div>
       </div>
     </div>

@@ -20,6 +20,10 @@ if (footer) {
           <a target="_blank" href="https://github.com/Sbipul"
             ><i class="lab la-github"></i
           ></a>
+          <a target="_blank" href="https://codeforces.com/profile/Bipul6104"
+            ><i class="las la-code"></i></a>
+          <a target="_blank" href="https://stackoverflow.com/users/20050541/bipul-chandro-roy"
+            ><i class="lab la-stack-overflow"></i></a>
           <a target="_blank" href="tel:+8801954443121"
             ><i class="las la-phone-volume"></i
           ></a>
