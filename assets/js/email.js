@@ -3,10 +3,13 @@ const user_name = document.getElementById("user_name");
 const user_email = document.getElementById("user_email");
 const message = document.getElementById("message");
 let abouseWord = ['hello','hala']
+let word = '';
 message.addEventListener("keypress",(e)=>{
   if (e.keyCode === 32) {
-    abouseWord.map(a=> (a.toLocaleLowerCase() === e.target.value) ? e.target.value = '***' : e.target.value)
+    word = e.target.value;
+    // abouseWord.map(a=> (a.toLocaleLowerCase() === e.target.value) ? e.target.value = '***' : e.target.value)
   }
+  console.log(word)
 })
 document.getElementById("form").addEventListener("submit", function (event) {
     event.preventDefault();
