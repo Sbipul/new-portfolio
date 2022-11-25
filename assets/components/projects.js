@@ -38,19 +38,17 @@ if (projects) {
       <div class="col-12 col-lg-4 mb-3">
           <div class="single-projects">
             <div class="project-image">
-              <h3>onion mart</h3>
+              <h3>genysis nft</h3>
               <small
                 ><a
                   class="text-light badge bg-secondary"
                   target="_blank"
-                  href="https://onion-mart.vercel.app/"
+                  href="https://genysis.netlify.app"
                   >Live link
                 </a></small
               >
               <p>
-                onion mart is a online multivendor e commerce website
-                for the custommers.mordern ui and full frontend
-                fucntionality belongs this project also backend...
+                genysis is a react nft frontend theme for building crypto currency market place.with backend friendly data flow and attractive design will give you a better user experience.
               </p>
             </div>
           </div>
