@@ -99,7 +99,7 @@ allProjects.innerHTML = `<div class="container">
   </div>
   <div class="col-10 col-md-11 col-lg-7">
     <div class="d-flex align-items-center">
-      <h5 class="m-0">i Appleians</h5><span><small><a class="text-light badge bg-secondary" target="_blank" href="https://codecanyon.net/item/iappleian-react-js-mobile-store-template/37306486">Live link</a></small></span>
+      <h5 class="m-0">i Appleians</h5><span><small><a class="text-light badge bg-secondary" target="_blank" href="https://i-appleian.netlify.app">Live link</a></small></span>
     </div>
       <p>i -appleian – online mobile store template. this
         template full responsive build with react js and node

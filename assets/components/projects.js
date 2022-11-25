@@ -82,7 +82,7 @@ if (projects) {
               <small
                 ><a
                   class="text-light badge bg-secondary"
-                  href="https://codecanyon.net/item/iappleian-react-js-mobile-store-template/37306486"
+                  href="https://i-appleian.netlify.app"
                   >Live link</a
                 ></small
               >
