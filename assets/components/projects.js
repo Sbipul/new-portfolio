@@ -61,7 +61,7 @@ if (projects) {
               ><a
                 class="text-light badge bg-secondary"
                 target="_blank"
-                href="https://codecanyon.net/item/the-champ-a-sports-player-portfolio-react-js-template/38651780?s_rank=2"
+                href="https://the-champ.netlify.app"
                 >Live link</a
               ></small
             >

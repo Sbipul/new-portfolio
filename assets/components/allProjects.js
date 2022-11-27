@@ -88,7 +88,7 @@ allProjects.innerHTML = `<div class="container">
   </div>
   <div class="col-10 col-md-11 col-lg-7">
     <div class="d-flex align-items-center">
-      <h5 class="m-0">The Champ</h5><span><small><a class="text-light badge bg-secondary" target="_blank" href="https://codecanyon.net/item/the-champ-a-sports-player-portfolio-react-js-template/38651780?s_rank=2">Live link</a></small></span>
+      <h5 class="m-0">The Champ</h5><span><small><a class="text-light badge bg-secondary" target="_blank" href="https://the-champ.netlify.app">Live link</a></small></span>
     </div>
       <p>eksonge Amra is a e learning website build in react,node,mongo,express.payment gateway and user varification handled standards.State management also handled with redux.</p>
   </div>
